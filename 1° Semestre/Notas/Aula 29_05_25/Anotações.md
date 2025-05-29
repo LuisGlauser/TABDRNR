@@ -31,4 +31,18 @@
 1. Modify no Alter Table
 2. Não pode trazer as explicações em papel, só o comando
 3. "Já viram insert com select"
-4. 
+
+## Codigo da Aula
+```
+-- Union -- Intersect -- Minus --
+select codcliente, nome from cliente
+UNION
+select codcliente, nmcliente from exclientes
+
+delete from ecclientes
+alter table exclientes
+modify codcliente number;
+
+insert into exclientes (codcliente, nmcliente)
+values(10099, 'Sophia')
+```
