@@ -1,20 +1,24 @@
 ## Projeção
-
+- Prof vai passar lição de certificado em oracle
 ## Produto Cartesiano
 - Junção de uas tabelas sem inner join
 - funcionario x cargo
 
+---
 ## Operações Relacionais
 ### Minus
 - Tudo que está em um que não está na outra
+- "Trazer todo mundo da A que não está na B"
 ### Union
 - Pega tudo de todas as tabelas
+- Se quero ver todos os dados é Union All, o Union padrão ignorou o
+- Union: Se achar o mesmo conjuto de dados, ele não traz
+- Union All: Traz os dados mesmo repetidos 
 ### Intersecção
 - Tudo que elas tem em comum
+- "Ela vai comparar oq vc trouxe no seu Select"
 ### Junção
 - "E tem junção que tem esse simboloBla bla bla" - Cristiane Palomar
----
-- Prof vai passar lição de certificado em oracle
 ---
 ## Oracle
 ### Porque não deu certo o Union?
@@ -22,3 +26,9 @@
 - A quantidade de campos de A tem que ser o mesmo de B
 - Não pode pegar 5 de uma e 3 de outra, tem que ser a mesma quantia e tipos de dados
 
+---
+## "Se eu pedir na prova vocês sabem fazer?"
+1. Modify no Alter Table
+2. Não pode trazer as explicações em papel, só o comando
+3. "Já viram insert com select"
+4. 
